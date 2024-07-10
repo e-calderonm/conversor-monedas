@@ -20,7 +20,7 @@ Para ejecutar este proyecto, necesitas tener instalados los siguientes programas
 
 - Java JDK 11 o superior
 - IntelliJ IDEA (opcional)
-- Biblioteca Gson 2.10.0
+- Biblioteca Gson 2.11.0
 - Postman (opcional, versión web disponible)
 
 ## Configuración del Entorno
@@ -57,9 +57,5 @@ Regístrate en [Exchange Rate API](https://www.exchangerate-api.com/) y obtén t
 3. Asegúrate de que todas las dependencias estén correctamente configuradas.
 4. Ejecuta la clase `Main.java`.
 
-## Uso de la Aplicación
 
-Cuando ejecutes la aplicación, verás un menú en la consola que te permitirá seleccionar el tipo de conversión que deseas realizar. Sigue las instrucciones en pantalla para ingresar el valor que deseas convertir.
-
-Ejemplo de uso:
 

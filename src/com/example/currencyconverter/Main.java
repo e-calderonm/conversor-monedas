@@ -8,6 +8,7 @@ public class Main {
         int option;
 
         do {
+            System.out.println("--------------------------------------------------");
             System.out.println("Bienvenido al Conversor de Monedas\n By: Daniel C");
             System.out.println("1) Dolar >>> Peso Argentino");
             System.out.println("2) Peso Argentino >>> Dolar");
@@ -25,6 +26,8 @@ public class Main {
                 CurrencyConverter converter = new CurrencyConverter();
                 String result = converter.convertCurrency(option, amount);
                 System.out.println(result);
+//                System.out.println("\nPresiona Enter para volver al menú...");
+//                scanner.nextLine();
             }
         } while (option != 7);
 
